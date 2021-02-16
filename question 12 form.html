@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="question 12 form.css">
+</head>
+<body>
+<header>
+<h1>TO THE NEW</h1>
+<nav>
+<a class="hov" href="#">Home</a>
+<a class= "hov" href="#">Quick Help</a>
+</nav>
+</header>
+<hr>
+<div class="content">
+<div class="chart"><form>
+<div class="color"><h2>Bug Report</h2></div><hr>
+<label for="title">Title:*</label><br>
+<input type="text" id="title" name="title" required><br>
+<label for="Description">Description:*</label><br>
+<textarea name="Description" rows="10" cols="30" required></textarea><br>
+<label for="os">Operating system:</label><br>
+<div class="custom-select">
+  <select id="os" name="os">
+    <option value="windows">Windows</option>
+    <option value="linux">Linux</option>
+    <option value="mac">Mac</option>
+  </select></div><br>
+<label for="product">Product:*</label><br>
+  <select id="product" name="product" required>
+    <option value="fomoid">fomoid</option>
+    <option value="sample">Sample</option>
+    <option value="sample1">Sample1</option>
+    <option value="sample2">Sample2</option>
+  </select><br>
+<label for="version">Version:*</label><br>
+<input type="text" id="version" name="version" required><br>
+<label for="license">License:</label><br>
+
+  <input class="radio"type="radio" id="free" name="version" value="free">
+  <label class="radio" for="free">Free</label>
+  <input class="radio" type="radio" id="Business" name="version" value="Business" checked="checked">
+  <label for="Business" class="radio">Business</label><br>
+
+<label for="severity">Severity:*</label><br>
+ <select id="severity" name="severity" required>
+    <option value="Critical">Critical</option>
+    <option value="sample">Sample</option>
+    <option value="sample1">Sample1</option>
+    <option value="sample2">Sample2</option>
+  </select><br>
+<label for="attachments">Attachments:</label><br>
+<input type="file" id="myFile" name="filename"><br><hr>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp                                                                                                                                      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="submit" value="Send">
+</form></div>
+</div>
+</body>
+</html>

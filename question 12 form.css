@@ -1,0 +1,53 @@
+form{
+border: 1px solid black;
+}
+.content{
+  max-width: 550px;
+  margin: auto;
+  background: white;
+
+}
+input[type=text], select, textarea, input[type="file"],label {
+  width:85%;
+  margin-right:20px;
+  margin-left:20px;
+  margin-top:5px;
+  margin-bottom:5px;
+  display: inline-block;
+}
+#version{
+width:10%;
+}
+.radio{
+margin-left:14px;
+}
+
+input[type="submit"]{
+width:20%;
+padding-top:1px;
+padding-bottom:1px;
+padding-left:1px;
+padding-right:1px;
+margin-top: 1px;
+margin-bottom: 5px;
+}
+nav{
+color:#00ff00;
+text-align: right;
+}
+.hov,h1{
+color:#00ff00;
+padding-left:5px;
+padding-right:5px;
+}
+.color,h2{
+background-color:#999966;
+margin: none;
+}
+
+.custom-select select {
+ 
+}
+.select-selected {
+  
+}
